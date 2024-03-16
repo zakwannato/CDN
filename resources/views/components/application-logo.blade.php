@@ -1,0 +1,1 @@
+<img src="{{ asset('assets/media/logos/cdn.png') }}" alt="Example Image">
