@@ -16,7 +16,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!--begin::Head-->
 	<head><base href="../../">
 		<meta charset="utf-8" />
-		<title>Metronic | No Aside</title>
+		<title>CDN | Complete Developer Networke</title>
 		<meta name="description" content="No aside layout examples" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<!--begin::Fonts-->
@@ -36,7 +36,7 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link href="{{ asset('assets/css/themes/layout/brand/dark.css') }}" rel="stylesheet" type="text/css" />
 		<link href="{{ asset('assets/css/themes/layout/aside/dark.css') }}" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="assets/media/logos/cdn.ico" />
 	</head>
 	<!--end::Head-->
 	<!--begin::Body-->

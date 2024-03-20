@@ -1,3 +1,5 @@
+<link rel="shortcut icon" href="assets/media/logos/cdn.ico" />
+<title>CDN | Complete Developer Networke</title>
 <x-guest-layout>
     <form method="POST" action="{{ route('register') }}">
         @csrf
