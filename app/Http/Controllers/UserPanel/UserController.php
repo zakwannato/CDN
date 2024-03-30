@@ -25,7 +25,6 @@ class UserController extends Controller
 
     public function update(Request $request, $id)
     {
-  
         // Find the user
         $user = User::findOrFail($id);
         // dd($request->location);
@@ -43,8 +42,10 @@ class UserController extends Controller
             'skill4' => $request->has('skill4') ? 1 : 0,
             'skill5' => $request->has('skill5') ? 1 : 0,
         ]);
-        
-        return redirect()->route(route: 'user.profile');
+       
+        return redirect()->route('user.profile', ['success' => 'User data updated successfully!']);
+
+
     }
 
     public function destroy(Request $request): RedirectResponse

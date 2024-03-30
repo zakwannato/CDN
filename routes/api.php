@@ -19,6 +19,17 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::put('user/{id}', [UserController::class, 'update']);
-Route::delete('user/{id}', [UserController::class, 'destroy']);
+
+    Route::put('user/{id}', [UserController::class, 'update']);
+    Route::delete('user/{id}', [UserController::class, 'destroy']);
+    Route::get('testing',function(){
+        return 'this is a test api';
+    });
+    
+
+
+
+// Route::get('admin/directory', [DirectoryController::class, 'index']);
+
+
 

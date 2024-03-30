@@ -2,6 +2,10 @@
 
 @section('content')
 
+<!-- Add this to your Blade file -->
+<link rel="stylesheet" href="{{ asset('path/to/sweetalert2.min.css') }}">
+<script src="{{ asset('path/to/sweetalert2.min.js') }}"></script>
+
 <div class="flex-row-fluid ml-lg-8">
     <!--begin::Card-->
     <div class="card card-custom card-stretch">

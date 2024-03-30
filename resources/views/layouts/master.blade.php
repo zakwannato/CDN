@@ -35,6 +35,8 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link href="{{ asset('assets/css/themes/layout/header/menu/light.css') }}" rel="stylesheet" type="text/css" />
 		<link href="{{ asset('assets/css/themes/layout/brand/dark.css') }}" rel="stylesheet" type="text/css" />
 		<link href="{{ asset('assets/css/themes/layout/aside/dark.css') }}" rel="stylesheet" type="text/css" />
+		<!--begin::Page Vendors Styles(used by this page)-->
+
 		<!--end::Layout Themes-->
 		<link rel="shortcut icon" href="assets/media/logos/cdn.ico" />
 	</head>
@@ -1650,6 +1652,12 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!--end::Page Vendors-->
 		<!--begin::Page Scripts(used by this page)-->
 		<script src="assets/js/pages/widgets.js"></script>
+		<!--end::Page Scripts-->
+		<!--begin::Page Vendors(used by this page)-->
+		<script src="{{ asset('assets/plugins/custom/datatables/datatables.bundle.js') }}"></script>
+		<!--end::Page Vendors-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="{{ asset('assets/js/pages/crud/datatables/advanced/column-rendering.js') }}"></script>
 		<!--end::Page Scripts-->
 	</body>
 	<!--end::Body-->
